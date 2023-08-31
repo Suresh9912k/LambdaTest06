@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lambda Test Suite">
+	<parameter name="URL" value="https://www.lambdatest.com/selenium-playground/" />
+
+	<!-- This is test-1 -->
+	<test name="Lambda Test01">
+
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Version" value="88.0" />
+		<parameter name="Platform" value="Windows 10" />
+		<parameter name="testName" value="Test_01" />
+	
+		<classes>
+			<class name="com.LambdaTestFinal.TestNgTest1">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<!-- This is test-2 -->
+	<test name="Lambda Test02">
+
+		<parameter name="Browser" value="MicrosoftEdge" />
+		<parameter name="Version" value="87.0" />
+		<parameter name="Platform" value="macOS Sierra" />
+		<parameter name="testName" value="Test_02" />
+	
+		<classes>
+			<class name="com.LambdaTestFinal.TestNgTest1">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<!-- This is test-3 -->
+	<test name="Lambda Test03">
+
+		<parameter name="Browser" value="Firefox" />
+		<parameter name="Version" value="82.0" />
+		<parameter name="Platform" value="Windows 7" />
+		<parameter name="testName" value="Test_03" />
+	
+		<classes>
+			<class name="com.LambdaTestFinal.TestNgTest1">
+			</class>
+		</classes>
+	</test>
+	
+	<!-- This is test-4 -->
+	<test name="Lambda Test04">
+
+		<parameter name="Browser" value="Internet Explorer" />
+		<parameter name="Version" value="11.0" />
+		<parameter name="Platform" value="Windows 10" />
+		<parameter name="testName" value="Test_04" />
+	
+		<classes>
+			<class name="com.LambdaTestFinal.TestNgTest1">
+			</class>
+		</classes>
+	</test>
+	
+
+</suite>
